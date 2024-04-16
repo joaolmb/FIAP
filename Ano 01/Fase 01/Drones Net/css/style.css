@@ -1,0 +1,324 @@
+  /* Elementos estruturais */
+  body {
+      display: flex;
+      flex-wrap: wrap;
+      width: 850px;
+      padding: 0;
+      margin: 20px;
+  }
+
+  main {
+      display: block;
+      width: 980px;
+      margin: 0 20px;
+      padding: 10px 50% 0 50%;
+  }
+
+  header {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+  }
+
+  .navbar1 {
+      z-index: 1;
+      width: 100%;
+      height: 45px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1b8e99;
+      font: Arial white 12px;
+  }
+
+  .navbar2 {
+      position: relative;
+      width: 100%;
+      height: 45px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      background-color: #660000;
+      font: Arial white 12px;
+  }
+
+  nav a {
+      padding: 7px;
+  }
+
+  .cabeçalho-button:hover {
+      padding: 25px 7px;
+      margin: 0px 10px;
+      background-color: #92c9ce;
+      transition: all 0.5s ease;
+  }
+
+  #drone-img1 {
+      z-index: 1;
+      height: 146px;
+      width: 194px;
+      margin: 70px 0px 0px 20px;
+  }
+
+  .banner {
+      position: relative;
+      height: 352px;
+  }
+
+  nav a {
+      margin: 10px;
+  }
+
+  .navbar-button:hover {
+      padding: 25px 7px;
+      margin: 0px 10px;
+      border-radius: 5px;
+      background-color: white;
+      color: #660000;
+      transition: all 0.5s ease;
+  }
+
+  .drone-image {
+      height: 77px;
+      width: 125px;
+  }
+
+  .loja-virtual-quebra {
+      width: 100%;
+      display: flex;
+      color: #660000;
+      font-family: arial;
+      margin: 30px 0 30px 0;
+  }
+
+  #hr-loja-virtual {
+      width: 855px;
+      border-bottom: #660000 solid 2px;
+      margin: 0px 0px 30px 0;
+  }
+
+  .quadro-produto-azul {
+      width: 296px;
+      height: 374px;
+      border: 2px solid #1b8e99;
+  }
+
+  .quadro-produto-azul h3 {
+      display: flex;
+      justify-content: center;
+      font-family: Tahoma;
+      font-size: medium;
+      color: #1b8e99;
+      padding: 5px;
+      margin: 2px 3px;
+      background-color: #92c9ce85;
+  }
+
+  .quadro-produto-vermelho {
+      width: 296px;
+      height: 374px;
+      border: 2px solid #660000;
+  }
+
+  .quadro-produto-vermelho h3 {
+      display: flex;
+      justify-content: center;
+      font-family: Tahoma;
+      font-size: medium;
+      color: #660000;
+      padding: 5px;
+      margin: 2px 3px;
+      background-color: #66000042;
+  }
+
+  /* Elementos de texto */
+
+  a {
+      font-family: Arial;
+      color: white;
+      font-size: 12px;
+      text-decoration: none;
+  }
+
+  /* Quadros */
+  .loja-virtual {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .quadro-produto-vermelho p {
+      font-family: Tahoma;
+      color: #660000;
+      font-size: 13px;
+      margin: 15px 10px;
+  }
+
+  .quadro-produto-azul p {
+      font-family: Tahoma;
+      color: #1b8e99;
+      font-size: 13px;
+      margin: 15px 10px;
+  }
+
+  .valor {
+      display: flex;
+      flex-wrap: wrap;
+      width: 40%;
+      height: 96px;
+      align-items: first baseline;
+      margin: 10px;
+      justify-content: start;
+  }
+
+  #valor {
+      color: white;
+      font-family: tahoma;
+      font-size: 25px;
+      margin-top: 25px;
+      margin-bottom: 0;
+  }
+
+  #parcelas {
+      color: white;
+      margin-top: 0;
+      margin-bottom: 25px;
+  }
+
+  .quadro-produto-azul .rodape-quadro {
+      width: 100%;
+      height: 95px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #1b8e99;
+
+  }
+
+  .quadro-produto-vermelho .rodape-quadro {
+      width: 100%;
+      height: 95px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #660000;
+  }
+
+  .rodape-quadro img {
+      background-color: white;
+      border-radius: 5px;
+      margin: 15px;
+      padding: 5px;
+  }
+
+  #linha-espessa {
+      height: 15px;
+      background-color: #444444;
+      margin: 70px 0px 70px 0px;
+  }
+
+  .serviços-quebra {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      color: #1b8e99;
+      font-family: arial;
+  }
+
+  #hr-servicos {
+      border-bottom: #1b8e99 solid 2px;
+      margin: 0 0 50px 0;
+      width: 855px;
+      padding: 0;
+  }
+
+  .quadros-servicos-azul {
+      width: 298px;
+      height: 389px;
+      border: 1px solid #1b8e99;
+      border-bottom: 10px solid #1b8e99;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+  }
+
+  .quadros-servicos-azul p {
+      margin: 17px;
+      color: #1b8e99;
+      font-family: tahoma;
+      font-size: small;
+  }
+
+  .quadros-servicos-azul h3 {
+      margin: 15px;
+      color: #1b8e99;
+      font-family: Tahoma;
+      font-size: 17px;
+  }
+
+  .quadros-servicos-vermelho {
+      width: 298px;
+      height: 389px;
+      border: 1px solid #660000;
+      border-bottom: 10px solid #660000;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+  }
+
+  .quadros-servicos-vermelho p {
+      margin: 17px;
+      color: #660000;
+      font-family: tahoma;
+      font-size: small;
+  }
+
+  .quadros-servicos-vermelho h3 {
+      margin: 15px;
+      color: #660000;
+      font-family: Tahoma;
+      font-size: 17px;
+  }
+
+  /* Rodapé */
+
+  #footer1 {
+      margin: 100px 0 0 0;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 150px;
+  }
+
+  #footer2 {
+      height: 96px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #1b8e99;
+      color: white;
+      font-family: Tahoma;
+      font-size: 14px;
+      padding: 0;
+      padding-left: 20px;
+  }
+
+  #footer2 p {
+      margin: 80px;
+  }
+
+  #professor {
+      margin-bottom: 50px;
+  }
+
+  #footer3 {
+      display: flex;
+      padding-right: 100px;
+      justify-content: end;
+      align-items: center;
+      height: 26px;
+      background-color: #660000;
+      color: white;
+      font-family: Tahoma;
+      font-size: 14px;
+  }
